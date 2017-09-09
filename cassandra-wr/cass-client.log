@@ -1,0 +1,114 @@
+DEBUG [main] 2017-09-09 16:02:25,839 com.sonand.cassandra_wr.App App.java (line 61) Inserting row for key 1
+DEBUG [main] 2017-09-09 16:02:25,855 com.sonand.cassandra_wr.App App.java (line 75) Row insert done.
+DEBUG [main] 2017-09-09 16:02:25,855 com.sonand.cassandra_wr.App App.java (line 78) Reading Name Column:
+DEBUG [main] 2017-09-09 16:02:25,881 com.sonand.cassandra_wr.App App.java (line 80) Column name: name
+DEBUG [main] 2017-09-09 16:02:25,881 com.sonand.cassandra_wr.App App.java (line 81) Column value: George Clinton
+DEBUG [main] 2017-09-09 16:02:25,881 com.sonand.cassandra_wr.App App.java (line 82) Column timestamp: 1504940545830
+DEBUG [main] 2017-09-09 16:02:25,888 com.sonand.cassandra_wr.App App.java (line 91) Complete Row:
+DEBUG [main] 2017-09-09 16:02:25,896 com.sonand.cassandra_wr.App App.java (line 100) age : 69
+DEBUG [main] 2017-09-09 16:02:25,903 com.sonand.cassandra_wr.App App.java (line 102) All done.
+DEBUG [main] 2017-09-09 16:02:25,903 com.sonand.cassandra_wr.App App.java (line 100) name : George Clinton
+DEBUG [main] 2017-09-09 16:02:25,904 com.sonand.cassandra_wr.App App.java (line 102) All done.
+DEBUG [main] 2017-09-09 16:09:37,752 com.sonand.cassandra_wr.App App.java (line 61) Inserting row for key 1
+DEBUG [main] 2017-09-09 16:09:37,769 com.sonand.cassandra_wr.App App.java (line 75) Row insert done.
+DEBUG [main] 2017-09-09 16:09:37,769 com.sonand.cassandra_wr.App App.java (line 78) Reading Name Column:
+DEBUG [main] 2017-09-09 16:09:37,792 com.sonand.cassandra_wr.App App.java (line 80) Column name: name
+DEBUG [main] 2017-09-09 16:09:37,792 com.sonand.cassandra_wr.App App.java (line 81) Column value: George Clinton
+DEBUG [main] 2017-09-09 16:09:37,792 com.sonand.cassandra_wr.App App.java (line 82) Column timestamp: 1504940977743
+DEBUG [main] 2017-09-09 16:09:37,799 com.sonand.cassandra_wr.App App.java (line 91) Complete Row:
+DEBUG [main] 2017-09-09 16:09:37,806 com.sonand.cassandra_wr.App App.java (line 100) age : 69
+DEBUG [main] 2017-09-09 16:09:37,808 com.sonand.cassandra_wr.App App.java (line 102) All done.
+DEBUG [main] 2017-09-09 16:09:37,809 com.sonand.cassandra_wr.App App.java (line 100) name : George Clinton
+DEBUG [main] 2017-09-09 16:09:37,809 com.sonand.cassandra_wr.App App.java (line 102) All done.
+DEBUG [main] 2017-09-09 16:10:59,200 com.sonand.cassandra_wr.App App.java (line 61) Inserting row for key 1
+DEBUG [main] 2017-09-09 16:10:59,217 com.sonand.cassandra_wr.App App.java (line 75) Row insert done.
+DEBUG [main] 2017-09-09 16:10:59,217 com.sonand.cassandra_wr.App App.java (line 78) Reading Name Column:
+DEBUG [main] 2017-09-09 16:10:59,238 com.sonand.cassandra_wr.App App.java (line 80) Column name: name
+DEBUG [main] 2017-09-09 16:10:59,238 com.sonand.cassandra_wr.App App.java (line 81) Column value: George Clinton
+DEBUG [main] 2017-09-09 16:10:59,238 com.sonand.cassandra_wr.App App.java (line 82) Column timestamp: 1504941059189
+DEBUG [main] 2017-09-09 16:10:59,245 com.sonand.cassandra_wr.App App.java (line 91) Complete Row:
+DEBUG [main] 2017-09-09 16:10:59,253 com.sonand.cassandra_wr.App App.java (line 100) age : 69
+DEBUG [main] 2017-09-09 16:10:59,257 com.sonand.cassandra_wr.App App.java (line 102) All done.
+DEBUG [main] 2017-09-09 16:10:59,257 com.sonand.cassandra_wr.App App.java (line 100) name : George Clinton
+DEBUG [main] 2017-09-09 16:10:59,258 com.sonand.cassandra_wr.App App.java (line 102) All done.
+DEBUG [main] 2017-09-09 16:12:33,987 com.sonand.cassandra_wr.App App.java (line 61) Inserting row for key 1
+DEBUG [main] 2017-09-09 16:12:34,005 com.sonand.cassandra_wr.App App.java (line 75) Row insert done.
+DEBUG [main] 2017-09-09 16:12:34,005 com.sonand.cassandra_wr.App App.java (line 78) Reading Name Column:
+DEBUG [main] 2017-09-09 16:12:34,029 com.sonand.cassandra_wr.App App.java (line 80) Column name: name
+DEBUG [main] 2017-09-09 16:12:34,029 com.sonand.cassandra_wr.App App.java (line 81) Column value: George Clinton
+DEBUG [main] 2017-09-09 16:12:34,029 com.sonand.cassandra_wr.App App.java (line 82) Column timestamp: 1504941153977
+DEBUG [main] 2017-09-09 16:12:34,037 com.sonand.cassandra_wr.App App.java (line 91) Complete Row:
+DEBUG [main] 2017-09-09 16:12:34,054 com.sonand.cassandra_wr.App App.java (line 100) age : 69
+DEBUG [main] 2017-09-09 16:12:34,058 com.sonand.cassandra_wr.App App.java (line 102) All done.
+DEBUG [main] 2017-09-09 16:12:34,058 com.sonand.cassandra_wr.App App.java (line 100) name : George Clinton
+DEBUG [main] 2017-09-09 16:12:34,059 com.sonand.cassandra_wr.App App.java (line 102) All done.
+DEBUG [main] 2017-09-09 16:16:14,176 com.sonand.cassandra_wr.App App.java (line 61) Inserting row for key 1
+DEBUG [main] 2017-09-09 16:16:14,193 com.sonand.cassandra_wr.App App.java (line 75) Row insert done.
+DEBUG [main] 2017-09-09 16:16:14,194 com.sonand.cassandra_wr.App App.java (line 78) Reading Name Column:
+DEBUG [main] 2017-09-09 16:16:14,210 com.sonand.cassandra_wr.App App.java (line 80) Column name: name
+DEBUG [main] 2017-09-09 16:16:14,210 com.sonand.cassandra_wr.App App.java (line 81) Column value: George Clinton
+DEBUG [main] 2017-09-09 16:16:14,211 com.sonand.cassandra_wr.App App.java (line 82) Column timestamp: 1504941374170
+DEBUG [main] 2017-09-09 16:16:14,215 com.sonand.cassandra_wr.App App.java (line 91) Complete Row:
+DEBUG [main] 2017-09-09 16:16:14,224 com.sonand.cassandra_wr.App App.java (line 100) age : 69
+DEBUG [main] 2017-09-09 16:16:14,228 com.sonand.cassandra_wr.App App.java (line 102) All done.
+DEBUG [main] 2017-09-09 16:16:14,231 com.sonand.cassandra_wr.App App.java (line 100) name : George Clinton
+DEBUG [main] 2017-09-09 16:16:14,231 com.sonand.cassandra_wr.App App.java (line 102) All done.
+DEBUG [main] 2017-09-09 16:17:04,149 com.sonand.cassandra_wr.App App.java (line 62) Inserting row for key 1
+DEBUG [main] 2017-09-09 16:17:04,163 com.sonand.cassandra_wr.App App.java (line 76) Row insert done.
+DEBUG [main] 2017-09-09 16:17:04,163 com.sonand.cassandra_wr.App App.java (line 79) Reading Name Column:
+DEBUG [main] 2017-09-09 16:17:04,179 com.sonand.cassandra_wr.App App.java (line 81) Column name: name
+DEBUG [main] 2017-09-09 16:17:04,179 com.sonand.cassandra_wr.App App.java (line 82) Column value: George Clinton
+DEBUG [main] 2017-09-09 16:17:04,180 com.sonand.cassandra_wr.App App.java (line 83) Column timestamp: 1504941424143
+DEBUG [main] 2017-09-09 16:17:04,183 com.sonand.cassandra_wr.App App.java (line 92) Complete Row:
+DEBUG [main] 2017-09-09 16:17:04,192 com.sonand.cassandra_wr.App App.java (line 101) age : 69
+DEBUG [main] 2017-09-09 16:17:04,195 com.sonand.cassandra_wr.App App.java (line 103) All done.
+DEBUG [main] 2017-09-09 16:17:04,195 com.sonand.cassandra_wr.App App.java (line 101) name : George Clinton
+DEBUG [main] 2017-09-09 16:17:04,195 com.sonand.cassandra_wr.App App.java (line 103) All done.
+DEBUG [main] 2017-09-09 16:28:50,641 com.sonand.cassandra_wr.App App.java (line 115) Inserting row for key 1
+DEBUG [main] 2017-09-09 16:28:50,656 com.sonand.cassandra_wr.App App.java (line 129) Row insert done.
+DEBUG [main] 2017-09-09 16:29:10,369 com.sonand.cassandra_wr.App App.java (line 65) Reading Name Column:
+DEBUG [main] 2017-09-09 16:29:10,393 com.sonand.cassandra_wr.App App.java (line 67) Column name: name
+DEBUG [main] 2017-09-09 16:29:10,394 com.sonand.cassandra_wr.App App.java (line 68) Column value: George Clinton
+DEBUG [main] 2017-09-09 16:29:10,394 com.sonand.cassandra_wr.App App.java (line 69) Column timestamp: 1504942130638
+DEBUG [main] 2017-09-09 16:29:10,399 com.sonand.cassandra_wr.App App.java (line 78) Complete Row:
+DEBUG [main] 2017-09-09 16:29:10,410 com.sonand.cassandra_wr.App App.java (line 87) age : 69
+DEBUG [main] 2017-09-09 16:29:10,413 com.sonand.cassandra_wr.App App.java (line 89) All done.
+DEBUG [main] 2017-09-09 16:29:10,414 com.sonand.cassandra_wr.App App.java (line 87) name : George Clinton
+DEBUG [main] 2017-09-09 16:29:10,414 com.sonand.cassandra_wr.App App.java (line 89) All done.
+DEBUG [main] 2017-09-09 16:31:34,105 com.sonand.cassandra_wr.App App.java (line 65) Reading Name Column:
+DEBUG [main] 2017-09-09 16:31:34,132 com.sonand.cassandra_wr.App App.java (line 67) Column name: name
+DEBUG [main] 2017-09-09 16:31:34,133 com.sonand.cassandra_wr.App App.java (line 68) Column value: George Clinton
+DEBUG [main] 2017-09-09 16:31:34,133 com.sonand.cassandra_wr.App App.java (line 69) Column timestamp: 1504942130638
+DEBUG [main] 2017-09-09 16:31:34,138 com.sonand.cassandra_wr.App App.java (line 78) Complete Row:
+DEBUG [main] 2017-09-09 16:31:34,148 com.sonand.cassandra_wr.App App.java (line 87) age : 69
+DEBUG [main] 2017-09-09 16:31:34,150 com.sonand.cassandra_wr.App App.java (line 87) name : George Clinton
+DEBUG [main] 2017-09-09 16:31:34,150 com.sonand.cassandra_wr.App App.java (line 90) All done.
+DEBUG [main] 2017-09-09 16:35:09,424 com.sonand.cassandra_wr.App App.java (line 65) Reading Name Column:
+DEBUG [main] 2017-09-09 16:35:09,454 com.sonand.cassandra_wr.App App.java (line 67) Column name: name
+DEBUG [main] 2017-09-09 16:35:09,455 com.sonand.cassandra_wr.App App.java (line 68) Column value: George Clinton
+DEBUG [main] 2017-09-09 16:35:09,455 com.sonand.cassandra_wr.App App.java (line 69) Column timestamp: 1504942130638
+DEBUG [main] 2017-09-09 16:35:09,462 com.sonand.cassandra_wr.App App.java (line 79) Complete Row:
+DEBUG [main] 2017-09-09 16:35:09,474 com.sonand.cassandra_wr.App App.java (line 87) age : 69
+DEBUG [main] 2017-09-09 16:35:09,476 com.sonand.cassandra_wr.App App.java (line 87) name : George Clinton
+DEBUG [main] 2017-09-09 16:35:09,476 com.sonand.cassandra_wr.App App.java (line 90) All done.
+DEBUG [main] 2017-09-09 16:38:31,048 com.sonand.cassandra_wr.App App.java (line 65) Reading Name Column:
+DEBUG [main] 2017-09-09 16:39:10,719 com.sonand.cassandra_wr.App App.java (line 115) Inserting row for key 1
+DEBUG [main] 2017-09-09 16:39:10,732 com.sonand.cassandra_wr.App App.java (line 129) Row insert done.
+DEBUG [main] 2017-09-09 16:40:02,759 com.sonand.cassandra_wr.App App.java (line 65) Reading Name Column:
+DEBUG [main] 2017-09-09 16:40:02,777 com.sonand.cassandra_wr.App App.java (line 67) Column name: name
+DEBUG [main] 2017-09-09 16:40:02,777 com.sonand.cassandra_wr.App App.java (line 68) Column value: George Clinton
+DEBUG [main] 2017-09-09 16:40:02,777 com.sonand.cassandra_wr.App App.java (line 69) Column timestamp: 1504942750715
+DEBUG [main] 2017-09-09 16:40:02,782 com.sonand.cassandra_wr.App App.java (line 79) Complete Row:
+DEBUG [main] 2017-09-09 16:40:02,791 com.sonand.cassandra_wr.App App.java (line 87) age : 69
+DEBUG [main] 2017-09-09 16:40:02,794 com.sonand.cassandra_wr.App App.java (line 87) name : George Clinton
+DEBUG [main] 2017-09-09 16:40:02,794 com.sonand.cassandra_wr.App App.java (line 90) All done.
+DEBUG [main] 2017-09-09 16:41:54,786 com.sonand.cassandra_wr.App App.java (line 115) Inserting row for key 1
+DEBUG [main] 2017-09-09 16:41:54,804 com.sonand.cassandra_wr.App App.java (line 129) Row insert done.
+DEBUG [main] 2017-09-09 16:41:54,809 com.sonand.cassandra_wr.App App.java (line 65) Reading Name Column:
+DEBUG [main] 2017-09-09 16:41:54,825 com.sonand.cassandra_wr.App App.java (line 67) Column name: name
+DEBUG [main] 2017-09-09 16:41:54,826 com.sonand.cassandra_wr.App App.java (line 68) Column value: George Clinton
+DEBUG [main] 2017-09-09 16:41:54,826 com.sonand.cassandra_wr.App App.java (line 69) Column timestamp: 1504942914781
+DEBUG [main] 2017-09-09 16:41:54,832 com.sonand.cassandra_wr.App App.java (line 79) Complete Row:
+DEBUG [main] 2017-09-09 16:41:54,841 com.sonand.cassandra_wr.App App.java (line 87) age : 69
+DEBUG [main] 2017-09-09 16:41:54,842 com.sonand.cassandra_wr.App App.java (line 87) name : George Clinton
+DEBUG [main] 2017-09-09 16:41:54,842 com.sonand.cassandra_wr.App App.java (line 90) All done.
