@@ -2,8 +2,10 @@ package com.sonand.cassandra_wr;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.ByteBuffer;
+import java.nio.IntBuffer;
 import java.sql.Timestamp;
 import java.util.List;
+import javax.xml.bind.DatatypeConverter;
 
 import org.apache.cassandra.thrift.Cassandra;
 import org.apache.cassandra.thrift.Column;
@@ -36,13 +38,6 @@ public class App {
   private static final String HOST = "localhost";
   private static final int PORT = 9160;
   private static final ConsistencyLevel CL = ConsistencyLevel.ONE;
-
-  public static void main(String[] args) throws UnsupportedEncodingException, InvalidRequestException,
-      UnavailableException, TimedOutException, TException, NotFoundException {
-    App app = new App();
-    app.insertData();
-    app.readData();
-  }
 
   public void insertData() throws InvalidRequestException, TException, UnsupportedEncodingException,
       UnavailableException, TimedOutException {
@@ -130,5 +125,100 @@ public class App {
     LOG.debug("All done.");
     tf.close();
     tr.close();
+  }
+
+  @SuppressWarnings("restriction")
+  public void readGraphIndex() throws UnsupportedEncodingException, InvalidRequestException, TException,
+      NotFoundException, UnavailableException, TimedOutException {
+    TTransport tr = new TSocket(HOST, PORT);
+
+    // new default in 0.7 is framed transport
+    TFramedTransport tf = new TFramedTransport(tr);
+    TProtocol proto = new TBinaryProtocol(tf);
+    Cassandra.Client client = new Cassandra.Client(proto);
+    tf.open();
+
+    client.set_keyspace("janusgraph");
+    String cfName = "graphindex";
+    byte[] parseHexBinary = DatatypeConverter.parseHexBinary("11a581");
+    ByteBuffer key = ByteBuffer.wrap(parseHexBinary);
+
+    // create a slice predicate representing the columns to read
+    // start and finish are the range of columns--here, all
+    SlicePredicate predicate = new SlicePredicate();
+    SliceRange sliceRange = new SliceRange();
+    sliceRange.setStart(new byte[0]);
+    sliceRange.setFinish(new byte[0]);
+    predicate.setSlice_range(sliceRange);
+
+    // read all columns in the row
+    ColumnParent parent = new ColumnParent(cfName);
+    List<ColumnOrSuperColumn> results = client.get_slice(key, parent, predicate, CL);
+
+    // loop over columns, outputting values
+    for (ColumnOrSuperColumn result : results) {
+      Column column = result.column;
+      LOG.debug(DatatypeConverter.printHexBinary(column.getName()));
+      LOG.debug(DatatypeConverter.printHexBinary(column.getValue()));
+      LOG.debug(column.getTimestamp());
+      LOG.debug("======");
+    }
+
+    LOG.debug("All done.");
+    tf.close();
+    tr.close();
+  }
+
+  public void readEdgeStore() throws UnsupportedEncodingException, InvalidRequestException, TException,
+      NotFoundException, UnavailableException, TimedOutException {
+    TTransport tr = new TSocket(HOST, PORT);
+
+    // new default in 0.7 is framed transport
+    TFramedTransport tf = new TFramedTransport(tr);
+    TProtocol proto = new TBinaryProtocol(tf);
+    Cassandra.Client client = new Cassandra.Client(proto);
+    tf.open();
+
+    client.set_keyspace("janusgraph");
+    String cfName = "edgestore";
+    byte[] parseHexBinary = DatatypeConverter.parseHexBinary("0000000000000309");
+    ByteBuffer key = ByteBuffer.wrap(parseHexBinary);
+
+    // create a slice predicate representing the columns to read
+    // start and finish are the range of columns--here, all
+    SlicePredicate predicate = new SlicePredicate();
+    SliceRange sliceRange = new SliceRange();
+    sliceRange.setCount(2147483647);
+    sliceRange.setStart(DatatypeConverter.parseHexBinary("10C2"));
+    sliceRange.setFinish(DatatypeConverter.parseHexBinary("10C3"));
+    predicate.setSlice_range(sliceRange);
+
+    // read all columns in the row
+    ColumnParent parent = new ColumnParent(cfName);
+    List<ColumnOrSuperColumn> results = client.get_slice(key, parent, predicate, CL);
+
+    // loop over columns, outputting values
+    for (ColumnOrSuperColumn result : results) {
+      Column column = result.column;
+      LOG.debug(DatatypeConverter.printHexBinary(column.getName()));
+      // LOG.debug(new String(column.getName()));
+      LOG.debug(DatatypeConverter.printHexBinary(column.getValue()));
+      // LOG.debug(new String(column.getValue()));
+      LOG.debug(column.getTimestamp());
+      LOG.debug("======");
+    }
+
+    LOG.debug("All done.");
+    tf.close();
+    tr.close();
+  }
+
+  public static void main(String[] args) throws UnsupportedEncodingException, InvalidRequestException,
+      UnavailableException, TimedOutException, TException, NotFoundException {
+    App app = new App();
+    // app.insertData();
+    // app.readData();
+    // app.readGraphIndex();
+    app.readEdgeStore();
   }
 }

@@ -112,3 +112,250 @@ DEBUG [main] 2017-09-09 16:41:54,832 com.sonand.cassandra_wr.App App.java (line 
 DEBUG [main] 2017-09-09 16:41:54,841 com.sonand.cassandra_wr.App App.java (line 87) age : 69
 DEBUG [main] 2017-09-09 16:41:54,842 com.sonand.cassandra_wr.App App.java (line 87) name : George Clinton
 DEBUG [main] 2017-09-09 16:41:54,842 com.sonand.cassandra_wr.App App.java (line 90) All done.
+DEBUG [main] 2017-09-09 17:17:12,075 com.sonand.cassandra_wr.App App.java (line 105) Reading Name Column:
+DEBUG [main] 2017-09-09 17:17:12,100 com.sonand.cassandra_wr.App App.java (line 107) Column name: name
+DEBUG [main] 2017-09-09 17:17:12,100 com.sonand.cassandra_wr.App App.java (line 108) Column value: George Clinton
+DEBUG [main] 2017-09-09 17:17:12,101 com.sonand.cassandra_wr.App App.java (line 109) Column timestamp: 1504942914781
+DEBUG [main] 2017-09-09 17:17:12,105 com.sonand.cassandra_wr.App App.java (line 119) Complete Row:
+DEBUG [main] 2017-09-09 17:17:12,116 com.sonand.cassandra_wr.App App.java (line 127) age : 69
+DEBUG [main] 2017-09-09 17:17:12,120 com.sonand.cassandra_wr.App App.java (line 127) name : George Clinton
+DEBUG [main] 2017-09-09 17:17:12,121 com.sonand.cassandra_wr.App App.java (line 130) All done.
+DEBUG [main] 2017-09-17 01:15:41,742 com.sonand.cassandra_wr.App App.java (line 162) Complete Row:
+DEBUG [main] 2017-09-17 01:15:59,158 com.sonand.cassandra_wr.App App.java (line 173) All done.
+DEBUG [main] 2017-09-17 01:17:56,166 com.sonand.cassandra_wr.App App.java (line 163) Complete Row:
+DEBUG [main] 2017-09-17 01:17:56,186 com.sonand.cassandra_wr.App App.java (line 174) All done.
+DEBUG [main] 2017-09-17 01:21:16,411 com.sonand.cassandra_wr.App App.java (line 162) Complete Row:
+DEBUG [main] 2017-09-17 01:21:16,432 com.sonand.cassandra_wr.App App.java (line 173) All done.
+DEBUG [main] 2017-09-17 01:29:19,873 com.sonand.cassandra_wr.App App.java (line 162) Complete Row:
+DEBUG [main] 2017-09-17 01:29:24,147 com.sonand.cassandra_wr.App App.java (line 170)  �(� : �
+DEBUG [main] 2017-09-17 01:29:24,147 com.sonand.cassandra_wr.App App.java (line 170)  (�0� : (�
+DEBUG [main] 2017-09-17 01:29:24,147 com.sonand.cassandra_wr.App App.java (line 170)  H�|� : H�
+DEBUG [main] 2017-09-17 01:29:24,147 com.sonand.cassandra_wr.App App.java (line 173) All done.
+DEBUG [main] 2017-09-17 01:32:27,318 com.sonand.cassandra_wr.App App.java (line 162) Complete Row:
+DEBUG [main] 2017-09-17 01:32:27,347 com.sonand.cassandra_wr.App App.java (line 172) 1503925676413001
+DEBUG [main] 2017-09-17 01:32:27,348 com.sonand.cassandra_wr.App App.java (line 173) ======
+DEBUG [main] 2017-09-17 01:32:27,348 com.sonand.cassandra_wr.App App.java (line 172) 1503925676413001
+DEBUG [main] 2017-09-17 01:32:27,349 com.sonand.cassandra_wr.App App.java (line 173) ======
+DEBUG [main] 2017-09-17 01:32:27,349 com.sonand.cassandra_wr.App App.java (line 172) 1503925676413001
+DEBUG [main] 2017-09-17 01:32:27,353 com.sonand.cassandra_wr.App App.java (line 173) ======
+DEBUG [main] 2017-09-17 01:32:27,354 com.sonand.cassandra_wr.App App.java (line 176) All done.
+DEBUG [main] 2017-09-17 01:32:59,121 com.sonand.cassandra_wr.App App.java (line 162) Complete Row:
+DEBUG [main] 2017-09-17 01:32:59,154 com.sonand.cassandra_wr.App App.java (line 170) 0010852880
+DEBUG [main] 2017-09-17 01:32:59,154 com.sonand.cassandra_wr.App App.java (line 171) 1085
+DEBUG [main] 2017-09-17 01:32:59,155 com.sonand.cassandra_wr.App App.java (line 172) 1503925676413001
+DEBUG [main] 2017-09-17 01:32:59,155 com.sonand.cassandra_wr.App App.java (line 173) ======
+DEBUG [main] 2017-09-17 01:32:59,155 com.sonand.cassandra_wr.App App.java (line 170) 002885013080
+DEBUG [main] 2017-09-17 01:32:59,158 com.sonand.cassandra_wr.App App.java (line 171) 2885
+DEBUG [main] 2017-09-17 01:32:59,158 com.sonand.cassandra_wr.App App.java (line 172) 1503925676413001
+DEBUG [main] 2017-09-17 01:32:59,158 com.sonand.cassandra_wr.App App.java (line 173) ======
+DEBUG [main] 2017-09-17 01:32:59,158 com.sonand.cassandra_wr.App App.java (line 170) 004885027C80
+DEBUG [main] 2017-09-17 01:32:59,159 com.sonand.cassandra_wr.App App.java (line 171) 4885
+DEBUG [main] 2017-09-17 01:32:59,159 com.sonand.cassandra_wr.App App.java (line 172) 1503925676413001
+DEBUG [main] 2017-09-17 01:32:59,159 com.sonand.cassandra_wr.App App.java (line 173) ======
+DEBUG [main] 2017-09-17 01:32:59,159 com.sonand.cassandra_wr.App App.java (line 176) All done.
+DEBUG [main] 2017-09-17 01:33:24,564 com.sonand.cassandra_wr.App App.java (line 169) 0010852880
+DEBUG [main] 2017-09-17 01:33:24,568 com.sonand.cassandra_wr.App App.java (line 170) 1085
+DEBUG [main] 2017-09-17 01:33:24,569 com.sonand.cassandra_wr.App App.java (line 171) 1503925676413001
+DEBUG [main] 2017-09-17 01:33:24,569 com.sonand.cassandra_wr.App App.java (line 172) ======
+DEBUG [main] 2017-09-17 01:33:24,569 com.sonand.cassandra_wr.App App.java (line 169) 002885013080
+DEBUG [main] 2017-09-17 01:33:24,569 com.sonand.cassandra_wr.App App.java (line 170) 2885
+DEBUG [main] 2017-09-17 01:33:24,572 com.sonand.cassandra_wr.App App.java (line 171) 1503925676413001
+DEBUG [main] 2017-09-17 01:33:24,572 com.sonand.cassandra_wr.App App.java (line 172) ======
+DEBUG [main] 2017-09-17 01:33:24,573 com.sonand.cassandra_wr.App App.java (line 169) 004885027C80
+DEBUG [main] 2017-09-17 01:33:24,573 com.sonand.cassandra_wr.App App.java (line 170) 4885
+DEBUG [main] 2017-09-17 01:33:24,573 com.sonand.cassandra_wr.App App.java (line 171) 1503925676413001
+DEBUG [main] 2017-09-17 01:33:24,573 com.sonand.cassandra_wr.App App.java (line 172) ======
+DEBUG [main] 2017-09-17 01:33:24,573 com.sonand.cassandra_wr.App App.java (line 175) All done.
+DEBUG [main] 2017-09-17 12:56:32,485 com.sonand.cassandra_wr.App App.java (line 169) 0010852880
+DEBUG [main] 2017-09-17 12:56:32,491 com.sonand.cassandra_wr.App App.java (line 170) 1085
+DEBUG [main] 2017-09-17 12:56:32,492 com.sonand.cassandra_wr.App App.java (line 171) 1503925676413001
+DEBUG [main] 2017-09-17 12:56:32,492 com.sonand.cassandra_wr.App App.java (line 172) ======
+DEBUG [main] 2017-09-17 12:56:32,493 com.sonand.cassandra_wr.App App.java (line 169) 002885013080
+DEBUG [main] 2017-09-17 12:56:32,493 com.sonand.cassandra_wr.App App.java (line 170) 2885
+DEBUG [main] 2017-09-17 12:56:32,495 com.sonand.cassandra_wr.App App.java (line 171) 1503925676413001
+DEBUG [main] 2017-09-17 12:56:32,495 com.sonand.cassandra_wr.App App.java (line 172) ======
+DEBUG [main] 2017-09-17 12:56:32,495 com.sonand.cassandra_wr.App App.java (line 169) 004885027C80
+DEBUG [main] 2017-09-17 12:56:32,495 com.sonand.cassandra_wr.App App.java (line 170) 4885
+DEBUG [main] 2017-09-17 12:56:32,496 com.sonand.cassandra_wr.App App.java (line 171) 1503925676413001
+DEBUG [main] 2017-09-17 12:56:32,496 com.sonand.cassandra_wr.App App.java (line 172) ======
+DEBUG [main] 2017-09-17 12:56:32,496 com.sonand.cassandra_wr.App App.java (line 175) All done.
+DEBUG [main] 2017-09-17 12:57:44,434 com.sonand.cassandra_wr.App App.java (line 203) 10C2803400
+DEBUG [main] 2017-09-17 12:57:44,438 com.sonand.cassandra_wr.App App.java (line 204) 8F00018E008080
+DEBUG [main] 2017-09-17 12:57:44,439 com.sonand.cassandra_wr.App App.java (line 205) 1503925676413001
+DEBUG [main] 2017-09-17 12:57:44,439 com.sonand.cassandra_wr.App App.java (line 206) ======
+DEBUG [main] 2017-09-17 12:57:44,439 com.sonand.cassandra_wr.App App.java (line 203) 10C2803800
+DEBUG [main] 2017-09-17 12:57:44,439 com.sonand.cassandra_wr.App App.java (line 204) 9981018E008180
+DEBUG [main] 2017-09-17 12:57:44,441 com.sonand.cassandra_wr.App App.java (line 205) 1503925676413001
+DEBUG [main] 2017-09-17 12:57:44,441 com.sonand.cassandra_wr.App App.java (line 206) ======
+DEBUG [main] 2017-09-17 12:57:44,442 com.sonand.cassandra_wr.App App.java (line 203) 10C2803C00
+DEBUG [main] 2017-09-17 12:57:44,442 com.sonand.cassandra_wr.App App.java (line 204) AD80018E008280
+DEBUG [main] 2017-09-17 12:57:44,442 com.sonand.cassandra_wr.App App.java (line 205) 1503925676413001
+DEBUG [main] 2017-09-17 12:57:44,442 com.sonand.cassandra_wr.App App.java (line 206) ======
+DEBUG [main] 2017-09-17 12:57:44,442 com.sonand.cassandra_wr.App App.java (line 203) 10C2804000
+DEBUG [main] 2017-09-17 12:57:44,442 com.sonand.cassandra_wr.App App.java (line 204) 9981018E008380
+DEBUG [main] 2017-09-17 12:57:44,443 com.sonand.cassandra_wr.App App.java (line 205) 1503925676413001
+DEBUG [main] 2017-09-17 12:57:44,443 com.sonand.cassandra_wr.App App.java (line 206) ======
+DEBUG [main] 2017-09-17 12:57:44,445 com.sonand.cassandra_wr.App App.java (line 203) 10C2804400
+DEBUG [main] 2017-09-17 12:57:44,445 com.sonand.cassandra_wr.App App.java (line 204) AE83018E008480
+DEBUG [main] 2017-09-17 12:57:44,445 com.sonand.cassandra_wr.App App.java (line 205) 1503925676413001
+DEBUG [main] 2017-09-17 12:57:44,445 com.sonand.cassandra_wr.App App.java (line 206) ======
+DEBUG [main] 2017-09-17 12:57:44,445 com.sonand.cassandra_wr.App App.java (line 203) 10C2804800
+DEBUG [main] 2017-09-17 12:57:44,445 com.sonand.cassandra_wr.App App.java (line 204) BC92018E008580
+DEBUG [main] 2017-09-17 12:57:44,445 com.sonand.cassandra_wr.App App.java (line 205) 1503925676413001
+DEBUG [main] 2017-09-17 12:57:44,446 com.sonand.cassandra_wr.App App.java (line 206) ======
+DEBUG [main] 2017-09-17 12:57:44,446 com.sonand.cassandra_wr.App App.java (line 203) 10C2804C00
+DEBUG [main] 2017-09-17 12:57:44,446 com.sonand.cassandra_wr.App App.java (line 204) B382018E008780
+DEBUG [main] 2017-09-17 12:57:44,446 com.sonand.cassandra_wr.App App.java (line 205) 1503925676413001
+DEBUG [main] 2017-09-17 12:57:44,447 com.sonand.cassandra_wr.App App.java (line 206) ======
+DEBUG [main] 2017-09-17 12:57:44,447 com.sonand.cassandra_wr.App App.java (line 209) All done.
+DEBUG [main] 2017-09-17 13:03:30,624 com.sonand.cassandra_wr.App App.java (line 205) 4 
+DEBUG [main] 2017-09-17 13:03:30,628 com.sonand.cassandra_wr.App App.java (line 206) � � ��
+DEBUG [main] 2017-09-17 13:03:30,629 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:03:30,629 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:03:30,629 com.sonand.cassandra_wr.App App.java (line 205) 8 
+DEBUG [main] 2017-09-17 13:03:30,629 com.sonand.cassandra_wr.App App.java (line 206) ��� ��
+DEBUG [main] 2017-09-17 13:03:30,632 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:03:30,632 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:03:30,632 com.sonand.cassandra_wr.App App.java (line 205) < 
+DEBUG [main] 2017-09-17 13:03:30,633 com.sonand.cassandra_wr.App App.java (line 206) ��� ��
+DEBUG [main] 2017-09-17 13:03:30,633 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:03:30,633 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:03:30,633 com.sonand.cassandra_wr.App App.java (line 205) @ 
+DEBUG [main] 2017-09-17 13:03:30,633 com.sonand.cassandra_wr.App App.java (line 206) ��� ��
+DEBUG [main] 2017-09-17 13:03:30,634 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:03:30,634 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:03:30,637 com.sonand.cassandra_wr.App App.java (line 205) D 
+DEBUG [main] 2017-09-17 13:03:30,637 com.sonand.cassandra_wr.App App.java (line 206) ��� ��
+DEBUG [main] 2017-09-17 13:03:30,637 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:03:30,637 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:03:30,637 com.sonand.cassandra_wr.App App.java (line 205) H 
+DEBUG [main] 2017-09-17 13:03:30,637 com.sonand.cassandra_wr.App App.java (line 206) ��� ��
+DEBUG [main] 2017-09-17 13:03:30,638 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:03:30,638 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:03:30,638 com.sonand.cassandra_wr.App App.java (line 205) L 
+DEBUG [main] 2017-09-17 13:03:30,638 com.sonand.cassandra_wr.App App.java (line 206) ��� ��
+DEBUG [main] 2017-09-17 13:03:30,638 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:03:30,638 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:03:30,639 com.sonand.cassandra_wr.App App.java (line 211) All done.
+DEBUG [main] 2017-09-17 13:04:23,063 com.sonand.cassandra_wr.App App.java (line 203) 10C2803400
+DEBUG [main] 2017-09-17 13:04:23,067 com.sonand.cassandra_wr.App App.java (line 204) 4 
+DEBUG [main] 2017-09-17 13:04:23,067 com.sonand.cassandra_wr.App App.java (line 205) 8F00018E008080
+DEBUG [main] 2017-09-17 13:04:23,068 com.sonand.cassandra_wr.App App.java (line 206) � � ��
+DEBUG [main] 2017-09-17 13:04:23,068 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:04:23,068 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:04:23,070 com.sonand.cassandra_wr.App App.java (line 203) 10C2803800
+DEBUG [main] 2017-09-17 13:04:23,070 com.sonand.cassandra_wr.App App.java (line 204) 8 
+DEBUG [main] 2017-09-17 13:04:23,071 com.sonand.cassandra_wr.App App.java (line 205) 9981018E008180
+DEBUG [main] 2017-09-17 13:04:23,071 com.sonand.cassandra_wr.App App.java (line 206) ��� ��
+DEBUG [main] 2017-09-17 13:04:23,071 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:04:23,071 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:04:23,071 com.sonand.cassandra_wr.App App.java (line 203) 10C2803C00
+DEBUG [main] 2017-09-17 13:04:23,071 com.sonand.cassandra_wr.App App.java (line 204) < 
+DEBUG [main] 2017-09-17 13:04:23,072 com.sonand.cassandra_wr.App App.java (line 205) AD80018E008280
+DEBUG [main] 2017-09-17 13:04:23,072 com.sonand.cassandra_wr.App App.java (line 206) ��� ��
+DEBUG [main] 2017-09-17 13:04:23,073 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:04:23,074 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:04:23,074 com.sonand.cassandra_wr.App App.java (line 203) 10C2804000
+DEBUG [main] 2017-09-17 13:04:23,074 com.sonand.cassandra_wr.App App.java (line 204) @ 
+DEBUG [main] 2017-09-17 13:04:23,075 com.sonand.cassandra_wr.App App.java (line 205) 9981018E008380
+DEBUG [main] 2017-09-17 13:04:23,075 com.sonand.cassandra_wr.App App.java (line 206) ��� ��
+DEBUG [main] 2017-09-17 13:04:23,075 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:04:23,075 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:04:23,075 com.sonand.cassandra_wr.App App.java (line 203) 10C2804400
+DEBUG [main] 2017-09-17 13:04:23,075 com.sonand.cassandra_wr.App App.java (line 204) D 
+DEBUG [main] 2017-09-17 13:04:23,076 com.sonand.cassandra_wr.App App.java (line 205) AE83018E008480
+DEBUG [main] 2017-09-17 13:04:23,076 com.sonand.cassandra_wr.App App.java (line 206) ��� ��
+DEBUG [main] 2017-09-17 13:04:23,076 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:04:23,076 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:04:23,076 com.sonand.cassandra_wr.App App.java (line 203) 10C2804800
+DEBUG [main] 2017-09-17 13:04:23,076 com.sonand.cassandra_wr.App App.java (line 204) H 
+DEBUG [main] 2017-09-17 13:04:23,076 com.sonand.cassandra_wr.App App.java (line 205) BC92018E008580
+DEBUG [main] 2017-09-17 13:04:23,077 com.sonand.cassandra_wr.App App.java (line 206) ��� ��
+DEBUG [main] 2017-09-17 13:04:23,077 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:04:23,077 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:04:23,077 com.sonand.cassandra_wr.App App.java (line 203) 10C2804C00
+DEBUG [main] 2017-09-17 13:04:23,077 com.sonand.cassandra_wr.App App.java (line 204) L 
+DEBUG [main] 2017-09-17 13:04:23,077 com.sonand.cassandra_wr.App App.java (line 205) B382018E008780
+DEBUG [main] 2017-09-17 13:04:23,078 com.sonand.cassandra_wr.App App.java (line 206) ��� ��
+DEBUG [main] 2017-09-17 13:04:23,078 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:04:23,078 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:04:23,078 com.sonand.cassandra_wr.App App.java (line 211) All done.
+DEBUG [main] 2017-09-17 13:10:45,585 com.sonand.cassandra_wr.App App.java (line 203) 10C2803400
+DEBUG [main] 2017-09-17 13:10:45,589 com.sonand.cassandra_wr.App App.java (line 205) 8F00018E008080
+DEBUG [main] 2017-09-17 13:10:45,590 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:10:45,590 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:10:45,590 com.sonand.cassandra_wr.App App.java (line 203) 10C2803800
+DEBUG [main] 2017-09-17 13:10:45,590 com.sonand.cassandra_wr.App App.java (line 205) 9981018E008180
+DEBUG [main] 2017-09-17 13:10:45,593 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:10:45,593 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:10:45,593 com.sonand.cassandra_wr.App App.java (line 203) 10C2803C00
+DEBUG [main] 2017-09-17 13:10:45,593 com.sonand.cassandra_wr.App App.java (line 205) AD80018E008280
+DEBUG [main] 2017-09-17 13:10:45,594 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:10:45,594 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:10:45,594 com.sonand.cassandra_wr.App App.java (line 203) 10C2804000
+DEBUG [main] 2017-09-17 13:10:45,594 com.sonand.cassandra_wr.App App.java (line 205) 9981018E008380
+DEBUG [main] 2017-09-17 13:10:45,594 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:10:45,594 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:10:45,597 com.sonand.cassandra_wr.App App.java (line 203) 10C2804400
+DEBUG [main] 2017-09-17 13:10:45,597 com.sonand.cassandra_wr.App App.java (line 205) AE83018E008480
+DEBUG [main] 2017-09-17 13:10:45,597 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:10:45,597 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:10:45,597 com.sonand.cassandra_wr.App App.java (line 203) 10C2804800
+DEBUG [main] 2017-09-17 13:10:45,597 com.sonand.cassandra_wr.App App.java (line 205) BC92018E008580
+DEBUG [main] 2017-09-17 13:10:45,598 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:10:45,598 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:10:45,598 com.sonand.cassandra_wr.App App.java (line 203) 10C2804C00
+DEBUG [main] 2017-09-17 13:10:45,598 com.sonand.cassandra_wr.App App.java (line 205) B382018E008780
+DEBUG [main] 2017-09-17 13:10:45,599 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 13:10:45,599 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 13:10:45,599 com.sonand.cassandra_wr.App App.java (line 211) All done.
+DEBUG [main] 2017-09-17 23:43:02,172 com.sonand.cassandra_wr.App App.java (line 203) 10C2806400
+DEBUG [main] 2017-09-17 23:43:02,178 com.sonand.cassandra_wr.App App.java (line 205) B382018E008780
+DEBUG [main] 2017-09-17 23:43:02,179 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 23:43:02,179 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 23:43:02,179 com.sonand.cassandra_wr.App App.java (line 203) 10C2806800
+DEBUG [main] 2017-09-17 23:43:02,179 com.sonand.cassandra_wr.App App.java (line 205) B180018E008880
+DEBUG [main] 2017-09-17 23:43:02,183 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 23:43:02,183 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 23:43:02,183 com.sonand.cassandra_wr.App App.java (line 203) 10C2806C00
+DEBUG [main] 2017-09-17 23:43:02,184 com.sonand.cassandra_wr.App App.java (line 205) AF81018E008980
+DEBUG [main] 2017-09-17 23:43:02,184 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 23:43:02,184 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 23:43:02,184 com.sonand.cassandra_wr.App App.java (line 203) 10C2807000
+DEBUG [main] 2017-09-17 23:43:02,184 com.sonand.cassandra_wr.App App.java (line 205) 8F00018E008A80
+DEBUG [main] 2017-09-17 23:43:02,185 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 23:43:02,185 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 23:43:02,187 com.sonand.cassandra_wr.App App.java (line 203) 10C2807400
+DEBUG [main] 2017-09-17 23:43:02,189 com.sonand.cassandra_wr.App App.java (line 205) 92A07365617263E8018E008B80
+DEBUG [main] 2017-09-17 23:43:02,191 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 23:43:02,191 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 23:43:02,192 com.sonand.cassandra_wr.App App.java (line 203) 10C2807800
+DEBUG [main] 2017-09-17 23:43:02,192 com.sonand.cassandra_wr.App App.java (line 205) 92A0757365723A62793A6D617263656C6F63662E6A616E757367726170682E757365724E616DE5018E008C80
+DEBUG [main] 2017-09-17 23:43:02,192 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-17 23:43:02,192 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-17 23:43:02,194 com.sonand.cassandra_wr.App App.java (line 211) All done.
+DEBUG [main] 2017-09-18 00:01:11,688 com.sonand.cassandra_wr.App App.java (line 203) 10C2806400
+DEBUG [main] 2017-09-18 00:01:11,693 com.sonand.cassandra_wr.App App.java (line 205) B382018E008780
+DEBUG [main] 2017-09-18 00:01:11,693 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-18 00:01:11,694 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-18 00:01:11,694 com.sonand.cassandra_wr.App App.java (line 203) 10C2806800
+DEBUG [main] 2017-09-18 00:01:11,694 com.sonand.cassandra_wr.App App.java (line 205) B180018E008880
+DEBUG [main] 2017-09-18 00:01:11,697 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-18 00:01:11,697 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-18 00:01:11,697 com.sonand.cassandra_wr.App App.java (line 203) 10C2806C00
+DEBUG [main] 2017-09-18 00:01:11,697 com.sonand.cassandra_wr.App App.java (line 205) AF81018E008980
+DEBUG [main] 2017-09-18 00:01:11,697 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-18 00:01:11,697 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-18 00:01:11,698 com.sonand.cassandra_wr.App App.java (line 203) 10C2807000
+DEBUG [main] 2017-09-18 00:01:11,698 com.sonand.cassandra_wr.App App.java (line 205) 8F00018E008A80
+DEBUG [main] 2017-09-18 00:01:11,698 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-18 00:01:11,698 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-18 00:01:11,701 com.sonand.cassandra_wr.App App.java (line 203) 10C2807400
+DEBUG [main] 2017-09-18 00:01:11,701 com.sonand.cassandra_wr.App App.java (line 205) 92A07365617263E8018E008B80
+DEBUG [main] 2017-09-18 00:01:11,702 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-18 00:01:11,702 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-18 00:01:11,702 com.sonand.cassandra_wr.App App.java (line 203) 10C2807800
+DEBUG [main] 2017-09-18 00:01:11,702 com.sonand.cassandra_wr.App App.java (line 205) 92A0757365723A62793A6D617263656C6F63662E6A616E757367726170682E757365724E616DE5018E008C80
+DEBUG [main] 2017-09-18 00:01:11,702 com.sonand.cassandra_wr.App App.java (line 207) 1503925676413001
+DEBUG [main] 2017-09-18 00:01:11,702 com.sonand.cassandra_wr.App App.java (line 208) ======
+DEBUG [main] 2017-09-18 00:01:11,703 com.sonand.cassandra_wr.App App.java (line 211) All done.
